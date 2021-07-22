@@ -1999,7 +1999,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #eaeaea;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
@@ -2010,7 +2010,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #303030;
-			color: #999;
+			color: #ddd;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
@@ -2036,7 +2036,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		background-color: #303030;
 		text-align: center;
 		position: fixed;
 		left: 0;
