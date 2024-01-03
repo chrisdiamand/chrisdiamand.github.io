@@ -24,10 +24,6 @@
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
 			}
 
-			.contact {
-				width: calc(50% - #{_size(section-spacing, large) * 0.5});
-			}
-
 			.copyright {
 				border-top: solid 2px _palette(border);
 				list-style: none;
@@ -90,11 +86,6 @@
 					margin: 0 0 (_size(element-margin) * 2) 0;
 				}
 
-				.contact {
-					width: 100%;
-					margin: 0 0 (_size(element-margin) * 2) 0;
-				}
-
 				.copyright {
 					margin: (_size(element-margin) * 2) 0 _size(element-margin) 0;
 				}
@@ -109,10 +100,6 @@
 				@include padding(2em, 2em);
 
 				form {
-					margin: 0 0 (_size(element-margin) * 1.5) 0;
-				}
-
-				.contact {
 					margin: 0 0 (_size(element-margin) * 1.5) 0;
 				}
 			}
