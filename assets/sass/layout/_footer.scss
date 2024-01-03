@@ -19,11 +19,6 @@
 				width: 100%;
 			}
 
-			form {
-				margin: 0 _size(section-spacing, large) 0 0;
-				width: calc(50% - #{_size(section-spacing, large) * 0.5});
-			}
-
 			.copyright {
 				border-top: solid 2px _palette(border);
 				list-style: none;
@@ -81,11 +76,6 @@
 				display: block;
 				width: 100%;
 
-				form {
-					width: 100%;
-					margin: 0 0 (_size(element-margin) * 2) 0;
-				}
-
 				.copyright {
 					margin: (_size(element-margin) * 2) 0 _size(element-margin) 0;
 				}
@@ -98,10 +88,6 @@
 
 			.inner {
 				@include padding(2em, 2em);
-
-				form {
-					margin: 0 0 (_size(element-margin) * 1.5) 0;
-				}
 			}
 		}
 
